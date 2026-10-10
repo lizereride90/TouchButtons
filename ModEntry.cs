@@ -6,7 +6,6 @@ using StardewValley;
 using StardewValley.Menus;
 using StardewValley.Tools;
 using System;
-using xTile.Dimensions;
 
 namespace TouchButtons
 {
@@ -226,7 +225,7 @@ namespace TouchButtons
             if (loc == null || who == null)
                 return;
 
-            try { loc.checkAction(new Location((int)tile.X, (int)tile.Y), Game1.viewport, who); }
+            try { loc.checkAction(new xTile.Dimensions.Location((int)tile.X, (int)tile.Y), Game1.viewport, who); }
             catch (Exception ex) { this.Monitor.Log($"Action failed: {ex.Message}", LogLevel.Trace); }
         }
 
