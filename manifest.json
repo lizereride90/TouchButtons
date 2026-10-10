@@ -1,0 +1,10 @@
+{
+  "Name": "Touch Buttons",
+  "Author": "misticraven1",
+  "Version": "1.0.0",
+  "Description": "See-through on-screen buttons: toolbar numbers, L/R, shortcuts and a touch/slide cursor. Made for touch screens.",
+  "UniqueID": "misticraven1.TouchButtons",
+  "EntryDll": "TouchButtons.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": []
+}
